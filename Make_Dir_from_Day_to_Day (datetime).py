@@ -39,7 +39,5 @@ def main():
         os.makedirs(current_dir + '\\' + month + '\\' + date_date + '\\' + second_dir)
         os.makedirs(current_dir + '\\' + month + '\\' + date_date + '\\' + third_dir)
         os.makedirs(current_dir + '\\' + month + '\\' + date_date + '\\' + fourth_dir)
-        
-#        os.mkdir(current_dir + '\\' + obj.strftime('%Y.%m.%d'))
 
 main()
